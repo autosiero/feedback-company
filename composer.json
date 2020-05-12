@@ -1,0 +1,21 @@
+{
+  "name": "autosiero/feedback-company",
+  "type": "statamic-addon",
+  "license": "LGPL-3.0",
+  "autoload": {
+    "psr-4": {
+      "Autosiero\\FeedbackCompany\\": "src"
+    }
+  },
+  "extra": {
+    "statamic": {
+      "name": "Feedback Company",
+      "description": "Feedback Company addon"
+    },
+    "laravel": {
+      "providers": [
+        "Autosiero\\FeedbackCompany\\ServiceProvider"
+      ]
+    }
+  }
+}
